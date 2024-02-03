@@ -11,7 +11,7 @@ In 2015, the **Logjam attack** highlighted the risks associated with export-grad
 To mitigate the risks associated with the Diffie-Hellman export grade attack, it is crucial to use strong key lengths and avoid the use of export-grade cryptographic algorithms. System administrators and developers should ensure that their systems are configured with secure cryptographic parameters to protect against potential attacks. In recent years, there have been efforts to deprecate and eliminate support for export-grade cryptography in various protocols and applications.
 
 ## About
-The following program is created for a CTF crypto challenge in [CryptoHack](https://cryptohack.org/) associated with the DH_EXPORT attack. It automatically performs a man-in-the-middle attack, where an unauthorized entity intercepts and alters the communication between two parties (Bob and Alice). As a result, it is capable of downgrading the encryption and solving the discrete log problem, ultimately obtaining the flag.
+The following program is created for a CTF crypto challenge in [CryptoHack](https://cryptohack.org/) associated with the DH export-grade attack. It automatically performs a man-in-the-middle attack, where an unauthorized entity intercepts and alters the communication between two parties (Bob and Alice). As a result, it is capable of downgrading the encryption and solving the discrete log problem, ultimately obtaining the flag.
 
 ## Installation
 
