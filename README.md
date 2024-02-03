@@ -15,7 +15,7 @@ The following program is created for a CTF crypto challenge in [CryptoHack](http
 
 ## Installation
 
-Use the package manager [pip3](https://pip.pypa.io/en/stable/) to install the required packages.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
 
 ```bash
 pip3 install pwntools pycryptodome
