@@ -14,14 +14,18 @@ To mitigate the risks associated with the Diffie-Hellman export grade attack, it
 The following program is created for a CTF crypto challenge in [CryptoHack](https://cryptohack.org/) associated with the DH export-grade attack. It automatically performs a man-in-the-middle attack, where an unauthorized entity intercepts and alters the communication between two parties (Bob and Alice). As a result, it is capable of downgrading the encryption and solving the discrete log problem, ultimately obtaining the flag.
 
 ## Installation
+1. Create and activate a Python virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+   
+2. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
+   ```bash
+   pip3 install pwntools pycryptodome
+   ```
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
-
-```bash
-pip3 install pwntools pycryptodome
-```
-
-Also [Sagemath](https://www.sagemath.org/) is required for solving the discrete log problem.
+3. Also [Sagemath](https://www.sagemath.org/) is required for solving the discrete log problem.
 
 ## Usage
 
