@@ -26,7 +26,7 @@ Also [Sagemath](https://www.sagemath.org/) is required for solving the discrete 
 ## Usage
 
 ```bash
-python3 export-grade.py
+sudo python3 export-grade.py
 ```
 
 ## Contributing
